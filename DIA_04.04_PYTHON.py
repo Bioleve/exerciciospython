@@ -55,6 +55,26 @@ print(f'Lista inteira após o pop[5]:',lista[:])
 lista.pop()
 # Ele vai remover o primeiro valor
 
-# Se você quiser salvar o valor removido, você pode salvar como uma variável
-primeiroValor = lista.pop(0)
-print(f'O valor removido foi o primeiro valor da lista, o número',primeiroValor)
+# Se você quiser salvar o valor removido, você pode salvar como uma lista
+removidos = []
+removidos = lista.pop(0)
+print(f'O valor removido foi o primeiro valor da lista, o número',removidos)
+
+
+
+classe = [
+    ["A", "Rodrigo", [1,2,3,4,5,6,7]], # 0
+    ["B", "Ranma", [8,9,10,11,12,13,14]], # 1
+    ["C", "Caroline", [15,16,17,18,19,20,21]], # 2
+    ["D", "Nebulonix", [1,2,3,4,5,6,7,8,9,10]], # 3
+    ["E", "Lenca", [1,2,3,4,5,6,7,8,9,10]], # 4
+    ["F", "Archzinho", [1,2,3,4,5,6,7,8,9,10]] # 5
+]
+
+print("\n"*10)
+print(f'Meu nome é',classe[0][1][:])
+print(f'Eu tenho um amigo incrível chamado',classe[1][1][:])
+print(f'E me inspiro muito na',classe[2][1][:])
+print(f'O {classe[3][1][0:4]} é um amigo nota {classe[3][2][-1]}')
+print(f'{classe[4][0][:]}u adoro ver a minha amiga {classe[4][1][:]} estudar!')
+print(f'Eu conheço o {classe[5][1][0:4]} a muito tempo e a presença dele é muito confortante!')
