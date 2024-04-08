@@ -58,8 +58,8 @@ lista.pop()
 # Se você quiser salvar o valor removido, você pode salvar como uma lista
 removidos = []
 removidos = lista.pop(0)
+removidos.append(lista.pop(1))
 print(f'O valor removido foi o primeiro valor da lista, o número',removidos)
-
 
 
 classe = [
